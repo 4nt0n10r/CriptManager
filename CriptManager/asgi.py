@@ -1,5 +1,5 @@
 """
-ASGI config for CriptManager project.
+ASGI config for criptmanager project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'CriptManager.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'criptmanager.settings')
 
 application = get_asgi_application()
